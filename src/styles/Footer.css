@@ -1,0 +1,7 @@
+.footer-nav {
+    max-height: 55px;
+    min-width: 100vw;
+
+    position: fixed;
+    bottom: 0;
+}

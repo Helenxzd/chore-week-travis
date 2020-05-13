@@ -1,0 +1,12 @@
+.GridWrapper{
+    min-height: 100%;
+    /* background-color: blue; */
+    padding: 16px;
+    flex-grow: 1;
+}
+
+.card{
+    padding: 8px;
+    text-align: 'center';
+    color: black;
+}

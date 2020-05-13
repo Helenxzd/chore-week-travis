@@ -1,0 +1,15 @@
+.ChoreWrapper {
+    border: solid black 1px;
+    border-radius: 26px;
+    margin: 4px 0;
+}
+.pending{
+    color: darkgrey;
+}
+.incomplete{
+    display: none;
+}
+.complete{
+    display: none;
+}
+

@@ -1,0 +1,24 @@
+{
+  "users": {
+    "jyHvrsUMWaXGV6O72QqXOkx3gEy1": {
+      "laundry": {
+        "group": "personal",
+        "dueDate": "Tue Apr 14 2020 00:00:00 GMT-0500 (Central Daylight Time)"
+      },
+      "dishes": {
+        "group": "1234 Garnett",
+        "dueDate": "Sat Apr 04 2020 00:00:00 GMT-0500 (Central Daylight Time)"
+      },
+      "sweep": {
+        "group": "1234 Garnett",
+        "dueDate": "Sun Apr 12 2020 17:16:45 GMT-0500 (Central Daylight Time)",
+        "dateCompleted": "Sun Apr 12 2020 17:16:45 GMT-0500 (Central Daylight Time)"
+      }
+    }
+  },
+  "groups": {
+    "1234 Garnett": [
+      "jyHvrsUMWaXGV6O72QqXOkx3gEy1"
+    ]
+  }
+}

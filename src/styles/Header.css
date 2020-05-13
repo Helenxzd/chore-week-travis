@@ -1,0 +1,7 @@
+/* .header-root {
+    height: 56px;
+} */
+
+.header-title {
+    flex-grow: 1;
+}
