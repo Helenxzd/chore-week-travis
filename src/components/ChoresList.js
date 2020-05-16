@@ -3,7 +3,7 @@ import firebase from "../shared/firebase";
 import Chore from "./Chore";
 import '../styles/ChoresList.css'
 import List from '@material-ui/core/List';
-// import Typography from "@material-ui/core/Typography";
+import Typography from "@material-ui/core/Typography";
 import AddChore from "./AddChore";
 import { addChores } from '../shared/filters';
 
@@ -76,12 +76,12 @@ const ChoresList = () => {
                         <div>
                             <div className="ListSpacer"/>
 
-                            <Typography variant="h4" style={{marginLeft: 8}}>-To Do-</Typography>
+                            <Typography variant="h4" style={{marginLeft: 8}}>To Do</Typography>
                             <ToDo user={user} chores={chores}/>
 
                             <div className="ListSpacer"/>
 
-                            <Typography variant="h4" style={{marginLeft: 8}}>-Done-</Typography>
+                            <Typography variant="h4" style={{marginLeft: 8}}>Done</Typography>
                             <Done user={user} chores={chores}/>
 
                             <div className="ListSpacer"/>
