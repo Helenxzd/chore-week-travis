@@ -3,7 +3,7 @@ import firebase from "../shared/firebase";
 import Chore from "./Chore";
 import '../styles/ChoresList.css'
 import List from '@material-ui/core/List';
-// import Typography from "@material-ui/core/Typography";
+import Typography from "@material-ui/core/Typography";
 import AddChore from "./AddChore";
 import { addChores } from '../shared/filters';
 

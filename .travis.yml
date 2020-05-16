@@ -7,3 +7,9 @@ cache:
 script:
   - npm test
   - CI=false npm run build
+notifications:
+  email:
+    recipients:
+      - naomixzdu@gmail.com
+    on_success: always
+    on_failure: always
