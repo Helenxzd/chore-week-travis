@@ -13,3 +13,6 @@ notifications:
       - naomixzdu@gmail.com
     on_success: always
     on_failure: always
+after_success:
+  - npm install -g firebase-tools
+  - firebase deploy --token $FIREBASE_TOKEN --non-interactive

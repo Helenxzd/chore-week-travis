@@ -76,12 +76,12 @@ const ChoresList = () => {
                         <div>
                             <div className="ListSpacer"/>
 
-                            <Typography variant="h4" style={{marginLeft: 8}}>To Do</Typography>
+                            <Typography variant="h4" style={{marginLeft: 8}}>-To Do-</Typography>
                             <ToDo user={user} chores={chores}/>
 
                             <div className="ListSpacer"/>
 
-                            <Typography variant="h4" style={{marginLeft: 8}}>Done</Typography>
+                            <Typography variant="h4" style={{marginLeft: 8}}>-Done-</Typography>
                             <Done user={user} chores={chores}/>
 
                             <div className="ListSpacer"/>
