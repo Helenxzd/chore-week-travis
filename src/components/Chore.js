@@ -69,7 +69,7 @@ const Chore = ({ uid, chore }) => {
                 <Chip label={chore.dueDate.toDateString()}
                       style={dueColor}
                       icon={ <QueryBuilderOutlinedIcon style={{color: 'black'}}/> }
-                />
+                /
             </ListItemSecondaryAction>
         </ListItem>
     );
