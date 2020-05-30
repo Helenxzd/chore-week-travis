@@ -64,7 +64,7 @@ const Chore = ({ uid, chore }) => {
             <ListItemSecondaryAction>
                 <div className={status} data-testid={chore.cid}>
                     pending
-                </div>
+                </div
                 <Chip label={chore.dueDate.toDateString()}
                       style={dueColor}
                       icon={ <QueryBuilderOutlinedIcon style={{color: 'black'}}/> }
