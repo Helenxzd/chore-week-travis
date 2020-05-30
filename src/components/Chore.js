@@ -62,8 +62,8 @@ const Chore = ({ uid, chore }) => {
                           secondary={chore.groupName}
             />
             <ListItemSecondaryAction>
-                <div className={status} >
-                    Pending
+                <div className={status} data-testid={chore.cid}>
+                    pending
                 </div>
                 <Chip label={chore.dueDate.toDateString()}
                       style={dueColor}
