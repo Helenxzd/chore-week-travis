@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import firebase from '../../shared/firebase.js';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import logo from './logo.jpeg';
@@ -33,10 +33,18 @@ const SignInPage = () => {
         />
     );
 
+    const [me, setMe] = useState("");
+
+    const handleClick = () => {
+        setMe("du");
+    }
+
     return (
         <div className="PositionWrap">
             <div className="SignInWrapper">
-                <div className="AppName">ChoreWeek</div>
+                <div data-cy="AppName" className="AppName">ChoreWeek</div>
+                <button onClick={handleClick} data-cy="clickMe">click</button>
+                <div data-cy="me">{me}</div>
                 <div className="LogoWrap">
                     <img src={logo} className="App-logo" alt="logo"/>
                 </div>

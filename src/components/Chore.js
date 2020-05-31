@@ -55,6 +55,7 @@ const Chore = ({ uid, chore }) => {
             <ListItemIcon>
                 <Checkbox checked={checked}
                           data-testid={chore.cid}
+                          data-cy="checkbox"
                           onChange={handleChange}
                           inputProps={{'aria-label': 'primary checkbox'}}
                 />
@@ -63,6 +64,9 @@ const Chore = ({ uid, chore }) => {
                           secondary={chore.groupName}
             />
             <ListItemSecondaryAction>
+                <div data-cy="choreStatus">
+                    {chore.status}
+                </div>
                 <div className={status}>
                     pending
                 </div>

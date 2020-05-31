@@ -23,7 +23,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "react-scripts build && firebase deploy",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:ci": "cypress run --config video=false",
+    "test:ci": "CI=false react-scripts test --watchAll=false && start-server-and-test start http://localhost:3000 cypress:ci"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,6 +44,7 @@
   },
   "devDependencies": {
     "@material-ui/core": "^4.9.10",
-    "cypress": "^4.7.0"
+    "cypress": "^4.7.0",
+    "start-server-and-test": "^1.11.0"
   }
 }
